@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p2.css">
+    <title>Prototype 2: Guided Labeling Tool</title>
+</head>
+<body>
+    <div class="prototype2">
+        <h2>Guided Resume Labeling Tool</h2>
+        <div class="upload-area">
+            <h3>Upload Your Resume</h3>
+            <div class="file-drop-zone">
+                <button>Drag & Drop or Upload Resume</button>
+                <p>Supported formats: PDF, Word</p>
+            </div>
+        </div>
+
+        <div class="section-by-section">
+            <h3>Step-by-Step Parsing</h3>
+            <div class="parsed-section">
+                <strong>Personal Information:</strong>
+                <p>John Doe</p>
+                <p>Email: johndoe@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <span class="highlight">*Potential error detected: Check phone format*</span>
+                <button class="edit">Edit</button>
+            </div>
+
+            <div class="parsed-section">
+                <strong>Work Experience:</strong>
+                <p>Software Engineer at XYZ Corp (June 2020 - Present)</p>
+                <p>Responsibilities: Developed web applications using JavaScript and React.</p>
+                <span class="highlight">*Error detected: Company name missing*</span>
+                <button class="edit">Edit</button>
+            </div>
+
+            <div class="parsed-section">
+                <strong>Education:</strong>
+                <p>Bachelor of Science in Computer Science, University of Example, Graduated May 2020</p>
+                <button class="edit">Edit</button>
+            </div>
+
+            <div class="parsed-section">
+                <strong>Skills:</strong>
+                <p>JavaScript, React, Node.js, Python</p>
+                <span class="highlight">*Check skill relevance*</span>
+                <button class="edit">Edit</button>
+            </div>
+        </div>
+
+        <div class="confirmation">
+            <h3>Confirmation Screen</h3>
+            <p>Review your sections and confirm labeling before submission.</p>
+        </div>
+
+        <button class="save-submit">Save & Submit</button>
+    </div>
+</body>
+</html>

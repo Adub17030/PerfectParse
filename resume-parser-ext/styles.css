@@ -1,0 +1,159 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    background-color: #f5f6fa;
+    color: #2f3640;
+    padding-top: 25%;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 480px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Upload section styling */
+.upload-section {
+    margin-bottom: 20px;
+}
+
+#resumeUpload {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    background-color: #f0f3f5;
+    color: #636e72;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#resumeUpload:hover {
+    background-color: #e1e6eb;
+}
+
+/* Preview section styling */
+#previewSection {
+    margin-top: 25px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2f3640;
+    margin-bottom: 15px;
+}
+
+/* Parsed data section styling */
+.section {
+    padding: 15px;
+    background-color: #f8f9fb;
+    border: 1px solid #e4e7eb;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: background-color 0.2s;
+}
+
+.section:hover {
+    background-color: #eef1f5;
+}
+
+.section strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.section p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button styling */
+#saveSubmit {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+#saveAsTemplate {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5b4caf;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+#saveSubmit:hover {
+    background-color: #3e8e41;
+}
+
+#saveAsTemplate:hover {
+    background-color: #563e8e;
+}
+
+/* Add spacing between buttons */
+#saveAsTemplate {
+    margin-top: 10px;
+}
+
+
+.upload-label {
+    font-size: 14px;
+    color: #cc6262;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.suggestion {
+    color: orange;
+    font-style: italic;
+    margin-top: 5px;
+}

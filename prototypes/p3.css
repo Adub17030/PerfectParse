@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.prototype3 {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.upload-area {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-area button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-area button:hover {
+    background-color: #0056b3;
+}
+
+.content-blocks {
+    margin-bottom: 20px;
+}
+
+.block {
+    background-color: #f9f9f9;
+    border: 1px dashed #007bff; /* Dashed border to indicate potential drag functionality */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: move; /* Change cursor to indicate draggable-like functionality */
+}
+
+.block:hover {
+    border-color: #0056b3; /* Change border color on hover */
+}
+
+.block strong {
+    display: block; /* Display section title as a block element */
+    cursor: pointer; /* Change cursor to pointer for better user experience */
+}
+
+.template-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auto-fill {
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auto-fill:hover {
+    background-color: #218838;
+}

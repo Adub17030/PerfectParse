@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p1.css">
+    <title>Prototype 1: Real-time Parsing Tool</title>
+</head>
+<body>
+    <div class="prototype1">
+        <h2>Real-time Resume Parsing Tool</h2>
+        <div class="upload-area">
+            <button>Upload Resume</button>
+            <p>Supported formats: PDF, Word</p>
+        </div>
+
+        <div class="parsing-preview">
+            <h3>Parsing Preview</h3>
+            <div class="preview-pane">
+                <strong>Preview of Uploaded Resume:</strong>
+                <p>John Doe</p>
+                <p>Email: johndoe@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <h4>Work Experience:</h4>
+                <p>Software Engineer at XYZ Corp (June 2020 - Present)</p>
+                <p>Responsibilities: Developed web applications using JavaScript and React.</p>
+                <h4>Education:</h4>
+                <p>Bachelor of Science in Computer Science, University of Example, Graduated May 2020</p>
+                <h4>Skills:</h4>
+                <p>JavaScript, React, Node.js, Python</p>
+            </div>
+
+            <div class="parsed-data">
+                <h4>Parsed Data:</h4>
+                <div class="section">
+                    <strong>Personal Information:</strong>
+                    <p>John Doe</p>
+                    <p>Email: johndoe@example.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="section">
+                    <strong>Work Experience:</strong>
+                    <p>Software Engineer at XYZ Corp</p>
+                </div>
+                <div class="section">
+                    <strong>Education:</strong>
+                    <p>Bachelor of Science in Computer Science</p>
+                </div>
+                <div class="section">
+                    <strong>Skills:</strong>
+                    <p>JavaScript, React, Node.js, Python</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="labeling-tool">
+            <h3>Labeling Tool</h3>
+            <button>Drag & Drop Labels</button>
+            <div class="edit-options">
+                <button>Edit</button>
+                <p>Accuracy: High</p>
+            </div>
+        </div>
+
+        <button class="save-submit">Save & Submit</button>
+    </div>
+</body>
+</html>

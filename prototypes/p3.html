@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p3.css">
+    <title>Prototype 3: Interactive Parsing Assistant</title>
+</head>
+<body>
+    <div class="prototype3">
+        <h2>Interactive Parsing Assistant</h2>
+        <div class="upload-area">
+            <button>Upload Resume</button>
+            <p>Drop your file here</p>
+        </div>
+
+        <div class="content-blocks">
+            <h3>Resume Sections</h3>
+            <div class="block">
+                <strong>Personal Information:</strong>
+                <div contenteditable="true">
+                    <p>John Doe</p>
+                    <p>Email: johndoe@example.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+            <div class="block">
+                <strong>Work Experience:</strong>
+                <div contenteditable="true">
+                    <p><strong>Software Engineer</strong> at XYZ Corp (June 2020 - Present)</p>
+                    <p>- Developed web applications using JavaScript, React, and Node.js.</p>
+                    <p>- Collaborated with cross-functional teams to define, design, and ship new features.</p>
+                </div>
+            </div>
+            <div class="block">
+                <strong>Education:</strong>
+                <div contenteditable="true">
+                    <p><strong>Bachelor of Science in Computer Science</strong></p>
+                    <p>University of Example, Graduated May 2020</p>
+                </div>
+            </div>
+            <div class="block">
+                <strong>Skills:</strong>
+                <div contenteditable="true">
+                    <p>- JavaScript, React, Node.js</p>
+                    <p>- Python, Django</p>
+                    <p>- SQL, NoSQL databases</p>
+                    <p>- Git, Agile methodologies</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="template-selection">
+            <h3>Template Selection</h3>
+            <select>
+                <option>Chronological</option>
+                <option>Functional</option>
+            </select>
+        </div>
+
+        <button class="auto-fill">Save & Auto-fill</button>
+    </div>
+</body>
+</html>

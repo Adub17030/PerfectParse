@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AI Resume Parser</title>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Resume Parser</h1>
+        <div class="upload-section">
+            <label for="resumeUpload" class="upload-label">Upload your resume:</label>
+            <input type="file" id="resumeUpload" accept=".pdf, .doc, .docx">
+        </div>
+        
+        <div id="previewSection">
+            <h2>Parsed Sections</h2>
+            <div id="parsedData" class="parsed-data"></div>
+        </div>
+        
+        <button id="saveSubmit">Save & Submit</button>
+        <button id="saveAsTemplate">Save as Custom Template</button> <!-- New Button -->
+
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

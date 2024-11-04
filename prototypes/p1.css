@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.prototype1 {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.upload-area {
+    margin-bottom: 20px;
+}
+
+.upload-area button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-area p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+.parsing-preview {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.preview-pane {
+    flex: 1;
+    margin-right: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.parsed-data {
+    margin-bottom: 20px;
+}
+
+.parsed-section {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.parsed-section strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.error-highlight {
+    background-color: #ffeeba;
+    color: #856404;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #ffeeba;
+}
+
+.labeling-tool {
+    border-top: 2px solid #007bff;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.label-toolbar {
+    margin-bottom: 10px;
+}
+
+.label-toolbar span {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editable-field {
+    background-color: #ffc107;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.feedback-indicator {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+    border-radius: 5px;
+}
+
+.save-submit {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-submit:hover {
+    background-color: #218838;
+}
